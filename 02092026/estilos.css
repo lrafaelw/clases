@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100%;
+}
+
+header{
+    background-color: rgb(254, 203, 140);
+    color: gray;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #e2a27d;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #c05a5a;
+    border-radius: 5px;
+    
+}
